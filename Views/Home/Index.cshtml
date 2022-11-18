@@ -2,7 +2,51 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    .botao
+    {
+        background-color: #808080;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+
+    .botao:hover
+    {
+        background-color: #4F4F4F;
+    }
+
+    .botao:active
+    {
+        background-color: #4F4F4F;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    
+    .img
+    {
+        height: 450px;
+        width: 750px;
+        border-radius: 15px;
+        box-shadow: 20px black;
+    }
+
+</style>
+
+<div class="container">
+    <div class="text-center">
+        <h1 class="display-4">Bem vindo!</h1>
+        <h2 class="display-6">Meu nome é Gabriel e esse é o projeto de avaliação da matéria de</h2>
+        <h2 class="display-6"><b>Técnicas de Programção</h2></b>
+        <hr>
+        <img class="img" src="https://imagens.itforum.com.br/itforum.com.br/wp-content/uploads/2020/12/9-conteudos-para-quem-quer-se-familiarizar-com-a-area-de-programacao-e-desenvolvimento.jpg.webp">
+        <hr>
+        <a href="https://github.com/gabriew13"><button class="botao">Github</button>
+    </div>
 </div>
